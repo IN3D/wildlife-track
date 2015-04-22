@@ -1,4 +1,4 @@
-<?php namespace App\Events;
+<?php namespace WT\Events;
 
 abstract class Event {
 
