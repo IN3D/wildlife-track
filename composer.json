@@ -2,7 +2,6 @@
 	"name": "code-dad/wildlife-track",
 	"description": "Wildlife Tracking Application",
 	"keywords": ["code-dad", "wild-life"],
-	"license": "MIT",
 	"type": "project",
 	"require": {
 		"laravel/framework": "5.0.*",
