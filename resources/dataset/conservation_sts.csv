@@ -1,1 +1,10 @@
-"CONSERVATION_STATUS","CONSERVATION_STATUS_DESC","CREATED_BY","DATE_CREATED","MODIFIED_BY","DATE_MODIFIED""1","Critical",,,,"2","Vulnerable",,,,"3","Intact",,,,
+CONSERVATION_STATUS,CONSERVATION_STATUS_DESC,CREATED_BY,DATE_CREATED,MODIFIED_BY,DATE_MODIFIED
+1,Critical,,,,
+2,Vulnerable,,,,
+3,Intact,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,

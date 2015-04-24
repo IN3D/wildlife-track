@@ -1,1 +1,27 @@
-"MHT_CODE","BIOME","CREATED_BY","DATE_CREATED","MODIFIED_BY","DATE_MODIFIED","SHORT_BIOME""1","Tropical and Subtropical Moist Broadleaf Forests",,,,,"Tropical Moist Forests""2","Tropical and Subtropical Dry Broadleaf Forests",,,,,"Tropical Dry Forests""3","Tropical and Subtropical Coniferous Forests",,,,,"Tropical Conifer Forests""4","Temperate Broadleaf and Mixed Forests",,,,,"5","Temperate Coniferous Forests",,,,,"Temperate Conifer Forests""6","Boreal Forests/Taiga",,,,,"Boreal Forests""7","Tropical and subtropical grasslands, savannas, and shrublands",,,,,"Tropical Grasslands""8","Temperate Grasslands, Savannas, and Shrublands",,,,,"Temperate Grasslands""9","Flooded Grasslands and Savannas",,,"fsotelo","4/11/2005 9:55:59 AM","Flood Grasslands""10","Montane Grasslands and Shrublands",,,,,"11","Tundra",,,,,"Tundra""12","Mediterranean Forests, Woodlands, and Scrub",,,,,"Mediterranean Forests""13","Deserts and Xeric Shrublands",,,,,"Deserts""14","Mangroves",,,,,"Mangroves""15","Large Rivers",,,,,"16","Large River Headwaters",,,,,"17","Large River Deltas",,,,,"18","Small Rivers",,,,,"19","Large Lakes",,,,,"20","Small Lakes",,,,,"21","Xeric Basins",,,,,"22","Polar",,,,,"23","Temperate Shelf and Seas",,,,,"24","Temperate Upwelling",,,,,"25","Tropical Upwelling",,,,,"26","Tropical Coral",,,,,
+MHT_CODE,BIOME,CREATED_BY,DATE_CREATED,MODIFIED_BY,DATE_MODIFIED,SHORT_BIOME
+1,Tropical and Subtropical Moist Broadleaf Forests,,,,,Tropical Moist Forests
+2,Tropical and Subtropical Dry Broadleaf Forests,,,,,Tropical Dry Forests
+3,Tropical and Subtropical Coniferous Forests,,,,,Tropical Conifer Forests
+4,Temperate Broadleaf and Mixed Forests,,,,,
+5,Temperate Coniferous Forests,,,,,Temperate Conifer Forests
+6,Boreal Forests/Taiga,,,,,Boreal Forests
+7,"Tropical and subtropical grasslands, savannas, and shrublands",,,,,Tropical Grasslands
+8,"Temperate Grasslands, Savannas, and Shrublands",,,,,Temperate Grasslands
+9,Flooded Grasslands and Savannas,,,fsotelo,4/11/2005 9:55:59 AM,Flood Grasslands
+10,Montane Grasslands and Shrublands,,,,,
+11,Tundra,,,,,Tundra
+12,"Mediterranean Forests, Woodlands, and Scrub",,,,,Mediterranean Forests
+13,Deserts and Xeric Shrublands,,,,,Deserts
+14,Mangroves,,,,,Mangroves
+15,Large Rivers,,,,,
+16,Large River Headwaters,,,,,
+17,Large River Deltas,,,,,
+18,Small Rivers,,,,,
+19,Large Lakes,,,,,
+20,Small Lakes,,,,,
+21,Xeric Basins,,,,,
+22,Polar,,,,,
+23,Temperate Shelf and Seas,,,,,
+24,Temperate Upwelling,,,,,
+25,Tropical Upwelling,,,,,
+26,Tropical Coral,,,,,

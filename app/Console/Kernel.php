@@ -12,6 +12,7 @@ class Kernel extends ConsoleKernel {
 	 */
 	protected $commands = [
 		'WT\Console\Commands\Inspire',
+        'WT\Console\Commands\BiomeCommand'
 	];
 
 	/**
