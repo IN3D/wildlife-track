@@ -15,7 +15,9 @@ class CreateFamiliesTable extends Migration {
 		Schema::create('families', function(Blueprint $table)
 		{
 			$table->increments('id');
-            $table->string( 'name' );
+            $table->integer( 'family_id' );
+            $table->integer( 'order_id' );
+            $table->string( 'family' );
 			$table->timestamps();
             $table->softDeletes();
 		});

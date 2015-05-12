@@ -15,7 +15,8 @@ class CreateGlobalsTable extends Migration {
 		Schema::create('globals', function(Blueprint $table)
 		{
 			$table->increments('id');
-            $table->string( 'name' );
+            $table->integer( 'global200_num' );
+            $table->string( 'global200_name' );
 			$table->timestamps();
             $table->softDeletes();
 		});

@@ -12,7 +12,14 @@ class Kernel extends ConsoleKernel {
 	 */
 	protected $commands = [
 		'WT\Console\Commands\Inspire',
-        'WT\Console\Commands\BiomeCommand'
+
+        /*
+        * Load all of our animal datasets in
+        */
+        'WT\Console\Commands\BiomeCommand',
+        'WT\Console\Commands\ClassificationCommand',
+        'WT\Console\Commands\OrderCommand',
+        'WT\Console\Commands\FamilyCommand'
 	];
 
 	/**

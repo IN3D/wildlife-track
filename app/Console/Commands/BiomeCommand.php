@@ -44,11 +44,33 @@ class BiomeCommand extends Command {
         if( $biomes === 0 )
         {
             $file_path = base_path() . '/resources/dataset/biomes.csv';
-            $handle    = fopen( $file_path, 'r' );
 
-            while( false !== ( $row = fgetcsv( $handle, 0 ) ) )
-            {
+            if( ( $handle = fopen( $file_path, 'r' ) ) !== FALSE ) {
+                $rows = 1;
 
+                while( ( $data = fgetcsv( $handle, 0, ',' ) ) !== FALSE )
+                {
+                    if( $rows == 1 )
+                    {
+                        $fields = [];
+
+                        foreach ($data as $key => $val) $fields[$key] = $val;
+                    }
+
+                    else
+                    {
+                        $row = [];
+
+                        foreach( $fields as $key => $val ) $row[$val] = trim( $data[$key] );
+
+                        Biome::create([
+                            'name' => $row['BIOME'],
+                            'short_name' => $row['SHORT_BIOME']
+                        ]);
+                    }
+
+                    $rows++;
+                }
             }
         }
 	}

@@ -14,10 +14,11 @@ class CreateEcoregionSpeciesTable extends Migration {
 	{
 		Schema::create('ecoregion_species', function(Blueprint $table)
 		{
-            $table->integer( 'ecoregion_id' )->unsigned()->index();
-            $table->foreign( 'ecoregion_id' )->references( 'id' )->on( 'ecoregions' );
-            $table->integer( 'species_id' )->unsigned()->index();
-            $table->foreign( 'species_id' )->references( 'id' )->on( 'species' );
+            $table->increment( 'id' );
+            $table->string( 'ecoregion_code' );
+            $table->integer( 'species_id' );
+            $table->timestamps();
+            $table->softDeletes();
 		});
 	}
 

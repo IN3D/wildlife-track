@@ -15,8 +15,8 @@ class CreateRealmsTable extends Migration {
 		Schema::create('realms', function(Blueprint $table)
 		{
 			$table->increments('id');
-            $table->string( 'code' );
-            $table->string( 'name' );
+            $table->string( 'realm_code' );
+            $table->string( 'realm' );
 			$table->timestamps();
             $table->softDeletes();
 		});

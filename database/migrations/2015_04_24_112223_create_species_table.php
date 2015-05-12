@@ -15,9 +15,9 @@ class CreateSpeciesTable extends Migration {
 		Schema::create('species', function(Blueprint $table)
 		{
 			$table->increments('id');
-            $table->integer( 'genus_id' )->unsigned()->index();
-            $table->foreign( 'genus_id' )->references( 'id' )->on( 'genuses' );
-            $table->string( 'name' );
+            $table->integer( 'species_id' );
+            $table->integer( 'genus_id' );
+            $table->string( 'species' );
 			$table->timestamps();
 		});
 	}

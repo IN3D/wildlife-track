@@ -15,8 +15,9 @@ class CreateBiomesTable extends Migration {
 		Schema::create('biomes', function(Blueprint $table)
 		{
 			$table->increments('id');
-            $table->string( 'name' );
-            $table->string( 'short_name' );
+            $table->string( 'mht_code' );
+            $table->string( 'biome' );
+            $table->string( 'short_biome' );
 			$table->timestamps();
             $table->softDeletes();
 		});

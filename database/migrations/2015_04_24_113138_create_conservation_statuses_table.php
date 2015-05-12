@@ -15,7 +15,8 @@ class CreateConservationStatusesTable extends Migration {
 		Schema::create('conservation_statuses', function(Blueprint $table)
 		{
             $table->increments('id');
-            $table->string( 'name' );
+            $table->integer( 'conservation_status' );
+            $table->string( 'conservation_status_desc' );
             $table->timestamps();
             $table->softDeletes();
 		});
