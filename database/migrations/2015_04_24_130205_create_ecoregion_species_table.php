@@ -14,7 +14,7 @@ class CreateEcoregionSpeciesTable extends Migration {
 	{
 		Schema::create('ecoregion_species', function(Blueprint $table)
 		{
-            $table->increment( 'id' );
+            $table->increments( 'id' );
             $table->string( 'ecoregion_code' );
             $table->integer( 'species_id' );
             $table->timestamps();

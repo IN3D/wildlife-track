@@ -2,25 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88ead531-29ee-43cd-bad3-cc692b73ee3b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/migrations/2015_04_24_111547_create_classes_table.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_04_24_111413_create_biomes_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_04_24_111413_create_biomes_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_04_24_111810_create_families_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_04_24_111810_create_families_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_04_24_112012_create_genuses_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_04_24_112012_create_genuses_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_04_24_112223_create_species_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_04_24_112223_create_species_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_04_24_112945_create_globals_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_04_24_112945_create_globals_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_04_24_113138_create_conservation_statuses_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_04_24_113138_create_conservation_statuses_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_04_24_113504_create_realms_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_04_24_113504_create_realms_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_04_24_115117_create_ecoregions_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_04_24_115117_create_ecoregions_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_04_24_130205_create_ecoregion_species_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_04_24_130205_create_ecoregion_species_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Console/Commands/BiomeCommand.php" afterPath="$PROJECT_DIR$/app/Console/Commands/BiomeCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Console/Kernel.php" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/dataset/class.csv" afterPath="$PROJECT_DIR$/resources/dataset/class.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/dataset/conservation_sts.csv" afterPath="$PROJECT_DIR$/resources/dataset/conservation_sts.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/dataset/family.csv" afterPath="$PROJECT_DIR$/resources/dataset/family.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/dataset/genus.csv" afterPath="$PROJECT_DIR$/resources/dataset/genus.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/dataset/order.csv" afterPath="$PROJECT_DIR$/resources/dataset/order.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/dataset/realm_code.csv" afterPath="$PROJECT_DIR$/resources/dataset/realm_code.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/dataset/species.csv" afterPath="$PROJECT_DIR$/resources/dataset/species.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wildlife-track.iws" />
@@ -206,21 +187,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="2015_04_24_115117_create_ecoregions_table.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/database/migrations/2015_04_24_115117_create_ecoregions_table.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="675">
-                  <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="2015_04_24_130205_create_ecoregion_species_table.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/database/migrations/2015_04_24_130205_create_ecoregion_species_table.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.49222797" vertical-offset="0" max-vertical-offset="600">
-                  <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+                <state vertical-scroll-proportion="0.38860103" vertical-offset="0" max-vertical-offset="600">
+                  <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -585,7 +556,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3211731" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3211731" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1003,14 +974,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_04_24_113504_create_realms_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="600">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/dataset/realm_code.csv">
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
@@ -1046,16 +1009,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2015_04_24_115117_create_ecoregions_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="675">
+        <state vertical-scroll-proportion="0.5699482" vertical-offset="0" max-vertical-offset="675">
           <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_04_24_113504_create_realms_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="600">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2015_04_24_130205_create_ecoregion_species_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49222797" vertical-offset="0" max-vertical-offset="600">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.38860103" vertical-offset="0" max-vertical-offset="600">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding />
         </state>
       </provider>
